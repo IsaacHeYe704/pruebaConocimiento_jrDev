@@ -1,0 +1,78 @@
+
+
+
+.landing
+{
+    background-image: url("./imgs/dogLanding.png"); 
+    background-size: cover;
+}
+ul
+{
+    display: flex;
+    flex-direction: row;
+}
+ul
+{
+    padding: 0;
+}
+nav li
+{
+    list-style-type: none;
+    margin-right: 28px;
+    color: white;
+    font-size: 24pt;
+    font-weight: lighter;
+}
+@media (max-width: 600px) {
+    nav li
+{
+    list-style-type: none;
+    margin-right: 28px;
+    color: white;
+    font-size: 15pt;
+    font-weight: lighter;
+}
+  }
+nav li:hover
+{
+    cursor: pointer;
+}
+
+.landing-logo
+{
+    display: flex;
+    align-items: center;
+    height: 64px;
+}
+.landing-logo h4
+{
+    margin-left: 15pt;
+}
+.landing-leftRow
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+.landing-leftRow p
+{
+    font-size: 16pt;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

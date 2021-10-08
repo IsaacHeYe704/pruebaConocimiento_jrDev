@@ -1,0 +1,95 @@
+.petsSection
+{
+    padding: 107pt;
+    background-color: #545871;
+    
+}
+
+.petSectionButton
+{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.petCardContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.petCard
+{
+    margin-bottom: 64pt;
+    background-color: #FFFFFF;
+    padding: 32px;
+    min-width: 544px;
+    max-width: 544px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+@media (min-width: 1500px) {
+    .petCard:nth-child(odd)
+{
+    margin-right: 60pt;
+}
+  }
+.petCard h4
+{
+    font-size: 24pt;
+    font-weight: 400;
+    margin:0;
+    
+}
+.petCard img
+{
+    width: 160px;
+    height: 160px;
+}
+.petCard p
+{
+    margin: 10px 0;
+    font-size: 20pt;
+}
+
+.petInfo
+{
+    margin-left: 30px;
+    width: 60%;
+}
+@media (max-width: 600px) {
+    .petsSection
+{
+    padding: initial;
+    background-color: #545871;
+    
+    
+}
+.petCard
+{
+    padding: 30px 5px;
+    min-width: 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.petCard p
+{
+    
+    
+    max-width: 90%;
+}
+.petInfo
+{
+    margin: 20px  0;
+    width: 90%;
+}
+}

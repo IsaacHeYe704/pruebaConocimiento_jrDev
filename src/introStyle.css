@@ -1,0 +1,33 @@
+.introSection-leftRow p
+{   
+    width: 80%;
+    margin-bottom: 57pt;
+}
+.introSection-rightRow
+{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    height: 20vh;
+}
+@media (max-width: 1500px) {
+    .introSection-rightRow
+{
+    height: fit-content;
+}
+  }
+.introSection-rightRow div
+{
+    width: 260px;
+}
+.introSection-rightRow div:nth-child(odd)
+{
+    margin-right: 32px;
+}
+.introSection-rightRow div label
+{
+    position: relative;
+    top: -50px;
+    left: 20px;
+    color: white;
+}
